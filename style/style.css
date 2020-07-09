@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+}
+.container{
+  width: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: -1px -5px 8px 3px #ccc;
+    text-align: center;
+    margin:60px auto;
+
+}
+#clock{
+  padding-top: 30px;
+}
+h1{
+  color: #005391;
+  font-size:40px;
+}
+.breakFast{
+  background: url('../images/breakfast.jpg');
+  height: 25rem;
+  background-repeat: no-repeat;
+      width:100%;
+    background-size: cover;
+    background-position:center;
+}
+.lunch{
+  background: url('../images/lunch.jpg');
+  height: 25rem;
+  padding: 50px;
+  background-repeat: no-repeat;
+      width: 100%;
+    background-size: cover;
+    background-position:center;
+}
+.dinner{
+  background: url('../images/dinner.png');
+  height: 25rem;
+  background-repeat: no-repeat;
+      width:100%;
+    background-size: cover;
+    background-position:center;
+
+
+}
+.coding-pix{
+  background: url('../images/coding.png');
+  height: 25rem;
+  background-repeat: no-repeat;
+      width: 100%;
+    background-size: cover;
+    background-position:center;
+}
+.time-container{
+  display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.time-box{
+  border: 1px solid #cccccc;
+  box-shadow: -1px -5px 8px 3px #ccc;
+  margin: 8px;
+  padding: 22px 30px;
+
+}
+.time-check
+{
+
+  font-size: 41px;
+  color: #005391;
+  font-weight: 800;
+  margin:0
+}
+
