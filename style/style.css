@@ -31,17 +31,17 @@ h1{
   height: 25rem;
   padding: 50px;
   background-repeat: no-repeat;
-      width: 100%;
-    background-size: cover;
-    background-position:center;
+  width: 100%;
+  background-size: cover;
+  background-position:center;
 }
 .dinner{
   background: url('../images/dinner.png');
   height: 25rem;
   background-repeat: no-repeat;
-      width:100%;
-    background-size: cover;
-    background-position:center;
+  width:100%;
+  background-size: cover;
+  background-position:center;
 
 
 }
@@ -74,3 +74,15 @@ h1{
   margin:0
 }
 
+
+@media(max-width:780px){
+  .container{
+    width: 100%;
+      margin: auto;
+      border: 1px solid #ccc;
+      box-shadow: -1px -5px 8px 3px #ccc;
+      text-align: center;
+      margin:60px auto;
+
+  }
+}
